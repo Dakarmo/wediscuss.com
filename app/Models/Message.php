@@ -71,7 +71,7 @@ public function group() {
  */
 public function attachments() {
     // Établit la relation où un message peut avoir plusieurs pièces jointes
-    return $this->hasMany(MessageAttachment::class);
+    return $this->hasMany(MessageAttachement::class);
 }
 
 }
